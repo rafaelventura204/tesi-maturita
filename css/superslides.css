@@ -1,0 +1,19 @@
+@import "compass";
+
+// Required
+#slides {
+  position: relative;
+  .slides-container {
+    display: none;
+    text-align: center;
+  }
+  .scrollable {
+    @include pie-clearfix;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+  }
+}
