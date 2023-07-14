@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <title>Nivo Slider </title>
+    
+ <!--  START  Nivo Slider -->
+    <link rel="stylesheet" href="NivoSlider_files/stili/nivo-slider.css" type="text/css" media="screen" /> 
+ <!--In style.css la regola #slider {} definisce l'aspetto dello slider per adattarlo alla nostra pagina. -->
+    <link rel="stylesheet" href="NivoSlider_files/stili/style.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="NivoSlider_files/scripts/jquery-1.4.3.min.js"></script>
+   
+<script type="text/javascript" src="NivoSlider_files/scripts/jquery.nivo.slider.js"></script>
+
+<script type="text/javascript">
+
+$(window).load(function() {
+  $('#slider').nivoSlider({
+  effect:'random',
+  pauseTime: 3000
+  });
+});
+</script>
+ <!--  END  Nivo Slider -->
+    
+    
+    
+</head>
+<body>
+
+ <!--  START  Nivo Slider -->
+<div id="slider" class="nivoSlider">
+<img src="NivoSlider_files/images/slider-1.jpg" alt="" />
+<img src="NivoSlider_files/images/slider-2.jpg" alt="" />
+<img src="NivoSlider_files/images/slider-3.jpg" alt="" />
+<img src="NivoSlider_files/images/slider-4.jpg" alt="" />
+</div>
+ <!--  END  Nivo Slider -->
+
+</body>
+</html>
